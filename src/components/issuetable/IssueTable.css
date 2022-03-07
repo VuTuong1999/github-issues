@@ -1,0 +1,79 @@
+.table {
+  padding-left: 16px;
+}
+
+.open {
+  border: 1px solid transparent;
+  border-radius: 3px 3px 0 0;
+  border-top: 3px solid transparent;
+  float: left;
+  font-weight: bold;
+  padding: 13px 0px;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #24292e;
+}
+.closed {
+  border: 1px solid transparent;
+  border-radius: 3px 3px 0 0;
+  border-top: 3px solid transparent;
+  float: left;
+  font-weight: none;
+  padding: 13px 0px;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #586069;
+}
+
+.issueall {
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-bottom: none;
+  border-radius: 3px 3px 0 0;
+  margin-top: 20px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  cursor: ponter;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+}
+
+.issuedetail {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.All {
+  margin-bottom: 20px;
+}
+
+.detail{
+  padding-left: 15px;
+    padding-right: 15px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #586069;
+}
